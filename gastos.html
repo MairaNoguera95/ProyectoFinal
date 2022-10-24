@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <head>
+      <link rel="stylesheet" href="gastos.css">
+    </head>
+    <body id="bodygastos">
+     
+    <h1>Formulario de mis gastos</h1>
+    <h2>Agregar nuevo gasto</h2>
+    
+   <div id="form-box">
+    <form id="formulario" method="post" >
+      <div>
+        <span>Categoria de gastos:</span> 
+          <select id="categoria-gastos">
+              <option value="alimentos">Alimentos</option>
+              <option value="servicios basicos">Servicios básicos</option>
+              <option value="transporte">Transporte</option>
+              <option value="vestimenta">Vestimenta</option>
+              <option value="ocio">Ocio</option>
+              <option value="familiar">Familia</option>
+              <option value="imprevistos">Imprevistos</option>
+              <option value="otros">Otros</option>
+          </select>
+      </div>
+      
+      <div>
+        <span>Descripción:</span> <input type="text" id="descripcion" class="input" name="descripcion" placeholder="¿En qué gaste?" >
+      </div>
+      <div>
+        <span>Fecha:</span> <input type="date" class="input" id="fecha">
+      </div>
+      <div>
+        <span>Monto:</span> <input type="number" class="input" id="monto" name="monto" placeholder="Cuánto gaste?">
+      </div>
+    <div><input type="submit" value="Registrar gasto" id="button" class="button"></div>
+    </form>
+    
+    </div>
+    <div id="linkgastos"> <a href="listaGastos.html">Detalles de Gastos</a></div>
+    <script src="scripts.js"></script>
+
+    </body>
+
+
+
+
+</html>

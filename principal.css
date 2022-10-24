@@ -1,0 +1,49 @@
+body{
+
+    background-color: rgb(116, 136, 190);
+    color: rgb(12, 2, 2);
+  }
+  #contenedor {
+    background-color: hsl(180, 50%, 95%);
+     width: 900px; 
+     height: 340px;
+     position: absolute;
+     inset: 0;
+     margin:auto;
+     text-align: center;
+     border-radius: 10px;
+     overflow: hidden;
+     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+     0 10px 10px rgba(0,0,0,0.22);
+       
+    }
+    #linkgastos{
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        background-color: #ABABF0;
+        top: 0;
+        padding: 10px;
+        line-height: 24px;
+        width: 200px;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 30px auto; 
+      }
+      #linkIngresos{
+        text-align: center;
+        margin-top: 30px;
+        font-family: 'Roboto', sans-serif;
+        background-color: #ABABF0;
+        position: relative;
+        top: 0;
+        padding: 10px;
+        text-align: center;
+        line-height: 24px;
+        width: 200px;
+        border-radius: 30px;
+        cursor: pointer;
+        margin: auto;
+      }
+    

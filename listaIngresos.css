@@ -1,0 +1,70 @@
+body { /* Aplica a todo el body*/
+    background-color: #f5f3f5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #3D3C42;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+p{
+    text-align: center;
+    margin-top: 2rem;
+    color: brown;
+}
+
+.lista-item {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3%;
+        height: 3rem;
+        border-radius: 10px;
+        max-width: 200%;
+    }
+
+
+.lista-item:hover {
+    color: #3D3C42;
+    background-color: #c19a79a5;
+}
+
+.categoria {
+    float: left;
+    margin-left: 2%;
+   
+}
+.fecha {
+    float: right;
+    margin-right: 0%;
+    }
+.monto {
+    float: right;
+    margin-right: 5%;
+}
+
+/*
+Esta clase permite centrar verticalmente los items en el div, tener en cuenta que si aumenta el alto del div contenedor,
+el line-height acá también debería aumentar al mismo valor.
+*/
+.item {
+    vertical-align: middle;
+    line-height: 3rem; 
+}
+
+#lista-ingresos {
+    margin: auto; /* con esto se logra que este centrado horizontalmente */
+    width: 50%;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: hwb(180 94% 3%);
+         inset: 0;
+         margin:auto;
+         text-align: left;
+         border-radius: 10px;
+         overflow: hidden;
+         box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+         0 10px 10px rgba(0,0,0,0.22);
+           
+        }
+

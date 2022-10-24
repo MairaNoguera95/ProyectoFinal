@@ -1,0 +1,66 @@
+#bodyIngresos{
+
+    background-color: hwb(225 92% 5%);
+    color: rgb(12, 2, 2);
+  }
+  h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+  }
+  
+  select, input {
+    margin-bottom: 25px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 3px;
+    border: 0;
+  }
+  
+  span {
+    display: inline-block;
+    width: 150px;
+  }
+  
+  #form-box {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .button {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ABABF0;
+    position: relative;
+    top: 0;
+    padding: 20px;
+    text-align: center;
+    line-height: 24px;
+    width: 200px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: auto;
+  
+  }
+  #linkIngresos{
+   
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        background-color: #ABABF0;
+        top: 0;
+        padding: 10px;
+        line-height: 24px;
+        width: 200px;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 30px auto; 
+  }

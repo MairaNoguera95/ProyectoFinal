@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <head>
+      <link rel="stylesheet" href="ingresos.css">
+    </head>
+    <body id="bodyIngresos">
+        <h1>Formulario para manejar mis Ingresos</h1>
+        <h2>Agregar nuevo Ingreso</h2>
+    <div id="form-box">
+      <form id="id-fomulario2" method="post">
+        <div>
+          <span>Categoria de Ingresos:</span> 
+            <select id="categoria-ingresos">
+                <option value="salario">Salario</option>
+                <option value="venta">Venta</option>
+                <option value="ganancias">Ganancias</option>
+                <option value="prestamos">Prestamos</option>
+                <option value="extras">Extras</option>
+                
+            </select>
+        </div>
+        <div>
+          <span>Fecha:</span> <input type="date" class="input" id="fecha">
+        </div>
+        <div>
+          <span>Monto:</span> <input type="number" class="input" id="monto" name="monto" placeholder="Cuánto ingrese?">
+        </div>
+      <div>
+        <input type="submit" value="Registrar ingreso" id="button" class="button">
+    </div>
+    <div id="linkIngresos"> <a href="listaIngresos.html">Detalles de Ingreso</a></div>
+      </form>
+      </div>
+    <script src="formingregos.js"></script>
+
+    </body>
+
+
+
+
+</html>
